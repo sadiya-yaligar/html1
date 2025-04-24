@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="author" content="Sadiya Yaligar">
+  <meta name="description" content="An example HTML5 page using all major tags.">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>HTML5 Full Example</title>
+</head>
+<body>
+
+  <!-- Header with navigation -->
+  <header>
+    <h1>My Awesome HTML5 Page</h1>
+    <nav>
+      <ul>
+        <li><a href="#intro">Introduction</a></li>
+        <li><a href="#media">Media</a></li>
+        <li><a href="#form">Form</a></li>
+        <li><a href="#contact">Contact</a></li>
+      </ul>
+    </nav>
+  </header>
+
+  <!-- Main content area -->
+  <main>
+
+    <!-- Section: Introduction -->
+    <section id="intro">
+      <h2>Welcome</h2>
+      <p>This webpage uses <strong>all major HTML5 tags</strong> to show their structure and function.</p>
+      <p>Here's an inline <em>emphasis</em> and a <mark>highlighted</mark> word.</p>
+      <p>Example of <abbr title="HyperText Markup Language">HTML</abbr> abbreviation.</p>
+      <blockquote cite="https://developer.mozilla.org">
+        HTML5 is the latest evolution of the standard that defines HTML.
+      </blockquote>
+      <details>
+        <summary>Click to learn more</summary>
+        <p>HTML5 introduced semantic elements like <code>&lt;article&gt;</code>, <code>&lt;section&gt;</code>, and multimedia support.</p>
+      </details>
+    </section>
+
+    <!-- Section: Article with aside -->
+    <section>
+      <article>
+        <h2>Article Example</h2>
+        <p>This is an independent piece of content.</p>
+      </article>
+      <aside>
+        <h3>Side Note</h3>
+        <p>This is some extra content related to the article.</p>
+      </aside>
+    </section>
+
+    <!-- Section: Multimedia -->
+    <section id="media">
+      <h2>Media Elements</h2>
+
+      <figure>
+        <img src="https://via.placeholder.com/300" alt="Placeholder Image" width="300">
+        <figcaption>A sample image with caption.</figcaption>
+      </figure>
+
+      <video width="320" height="240" controls>
+        <source src="sample.mp4" type="video/mp4">
+        Your browser does not support the video tag.
+      </video>
+
+      <audio controls>
+        <source src="sample.mp3" type="audio/mpeg">
+        Your browser does not support the audio element.
+      </audio>
+
+      <canvas id="myCanvas" width="200" height="100" style="border:1px solid #000;">
+        Your browser does not support canvas.
+      </canvas>
+    </section>
+
+    <!-- Section: Form -->
+    <section id="form">
+      <h2>Contact Form</h2>
+      <form>
+        <label for="name">Name:</label>
+        <input type="text" id="name" name="name" required><br><br>
+
+        <label for="email">Email:</label>
+        <input type="email" id="email" name="email"><br><br>
+
+        <label for="dob">Date of Birth:</label>
+        <input type="date" id="dob" name="dob"><br><br>
+
+        <label for="gender">Gender:</label>
+        <select id="gender" name="gender">
+          <option value="female">Female</option>
+          <option value="male">Male</option>
+          <option value="other">Other</option>
+        </select><br><br>
+
+        <label>Skills:</label>
+        <input type="checkbox" name="skills" value="html"> HTML
+        <input type="checkbox" name="skills" value="css"> CSS
+        <input type="checkbox" name="skills" value="js"> JavaScript<br><br>
+
+        <label>Experience Level:</label>
+        <input type="radio" name="experience" value="beginner"> Beginner
+        <input type="radio" name="experience" value="intermediate"> Intermediate
+        <input type="radio" name="experience" value="advanced"> Advanced<br><br>
+
+        <label for="message">Message:</label><br>
+        <textarea id="message" name="message" rows="4" cols="50"></textarea><br><br>
+
+        <button type="submit">Submit</button>
+      </form>
+    </section>
+
+  </main>
+
+  <!-- Footer -->
+  <footer id="contact">
+    <p>Contact us at <a href="mailto:sadiyayaligar8@gmail.com">sadiyayaligar8@gmail.com</a></p>
+    <address>
+      Anjuman Institute, Dharwad, India
+    </address>
+    <p>&copy; 2025 All rights reserved.</p>
+  </footer>
+
+</body>
+</html>
